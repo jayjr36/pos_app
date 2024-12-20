@@ -22,10 +22,10 @@ class DefaultFirebaseOptions {
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
         return android;
-      case TargetPlatform.iOS:
-        return ios;
-      case TargetPlatform.macOS:
-        return macos;
+      // case TargetPlatform.iOS:
+      //   return ios;
+      // case TargetPlatform.macOS:
+      //   return macos;
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
@@ -44,38 +44,38 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyB6xqlyTuo56MkqcjgqDi7abWwNi1EBh6c',
-    appId: '1:406037321591:web:153217cdc34efce3a3b372',
-    messagingSenderId: '406037321591',
-    projectId: 'flutter-pos-478ed',
+    apiKey: 'AIzaSyAcOiZJt_k_BraAgqepbeJdOt_N8Np7wLU',
+    appId: '1:407919250762:android:53ca7cc3ac763ad07745b3',
+    messagingSenderId: '407919250762',
+    projectId: 'posapp-eb6a9',
     authDomain: 'flutter-pos-478ed.firebaseapp.com',
-    storageBucket: 'flutter-pos-478ed.appspot.com',
+    storageBucket: 'posapp-eb6a9.firebasestorage.app',
     measurementId: 'G-CLMBZZ5W42',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyA67wagaW8U8yRKDMx5W5f2S0IPDTlVQSg',
-    appId: '1:406037321591:android:dd6f394a021c2220a3b372',
-    messagingSenderId: '406037321591',
-    projectId: 'flutter-pos-478ed',
-    storageBucket: 'flutter-pos-478ed.appspot.com',
+    apiKey: 'AIzaSyAcOiZJt_k_BraAgqepbeJdOt_N8Np7wLU',
+    appId: '1:407919250762:android:53ca7cc3ac763ad07745b3',
+    messagingSenderId: '407919250762',
+    projectId: 'posapp-eb6a9',
+    storageBucket: 'posapp-eb6a9.firebasestorage.app',
   );
 
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDkTI6SME6YjVEUYVS7hCqHlyhuAuQVNYk',
-    appId: '1:406037321591:ios:fae2602173cc9368a3b372',
-    messagingSenderId: '406037321591',
-    projectId: 'flutter-pos-478ed',
-    storageBucket: 'flutter-pos-478ed.appspot.com',
-    iosBundleId: 'elriztechnology.com.flutterPos',
-  );
+  // static const FirebaseOptions ios = FirebaseOptions(
+  //   apiKey: 'AIzaSyAcOiZJt_k_BraAgqepbeJdOt_N8Np7wLU',
+  //   appId: '1:407919250762:android:53ca7cc3ac763ad07745b3',
+  //   messagingSenderId: '407919250762',
+  //   projectId: 'posapp-eb6a9',
+  //   storageBucket: 'posapp-eb6a9.firebasestorage.app',
+  //   iosBundleId: 'elriztechnology.com.flutterPos',
+  // );
 
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDkTI6SME6YjVEUYVS7hCqHlyhuAuQVNYk',
-    appId: '1:406037321591:ios:0d1bbcb3b019b127a3b372',
-    messagingSenderId: '406037321591',
-    projectId: 'flutter-pos-478ed',
-    storageBucket: 'flutter-pos-478ed.appspot.com',
-    iosBundleId: 'elriztechnology.com.flutterPos.RunnerTests',
-  );
+  // static const FirebaseOptions macos = FirebaseOptions(
+  //   apiKey: 'AIzaSyAcOiZJt_k_BraAgqepbeJdOt_N8Np7wLU',
+  //   appId: '1:407919250762:android:53ca7cc3ac763ad07745b3',
+  //   messagingSenderId: '407919250762',
+  //   projectId: 'posapp-eb6a9',
+  //   storageBucket: 'posapp-eb6a9.firebasestorage.app',
+  //   iosBundleId: 'elriztechnology.com.flutterPos.RunnerTests',
+  // );
 }
